@@ -1,0 +1,20 @@
+{
+  "name": "leaguedatabase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server/server",
+    "seed": "node scripts/seed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "lol-champions": "^10.23.1",
+    "pg": "^8.5.1",
+    "sequelize": "^6.5.0"
+  }
+}
